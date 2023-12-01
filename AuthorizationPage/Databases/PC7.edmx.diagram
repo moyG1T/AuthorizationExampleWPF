@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5eb8bfe10f654bc98cf050fa73504e30" Name="Diagram1">
+        <EntityTypeShape EntityType="AuthorizationDB_Model.Clients" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthorizationDB_Model.Genders" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthorizationDB_Model.LogPas" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthorizationDB_Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthorizationDB_Model.Worker" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthorizationDB_Model.Worker_type" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="AuthorizationDB_Model.FK_Clients_LogPas" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthorizationDB_Model.FK_Users_User_gender" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthorizationDB_Model.FK_LogPas_Worker_type" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthorizationDB_Model.FK_Worker_LogPas" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
